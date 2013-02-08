@@ -123,6 +123,8 @@ load(const char *dictionary)
      {        
         node *newnodeptr = malloc(sizeof(node));
         fscanf(dict, "%s", newnodeptr->word); 
+        printf("this is the word being loaded\n\n");
+	printf("%s\n", newnodeptr->word);
         newnodeptr->order = the_word_order;
         int n = (newnodeptr->word[0] % hash_size); 
        //assigns words to location based on the items in hash

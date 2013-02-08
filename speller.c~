@@ -183,8 +183,8 @@ main(int argc, char *argv[])
     printf("TIME IN size:         %.2f\n", ti_size);
     printf("TIME IN unload:       %.2f\n", ti_unload);
     printf("TIME IN TOTAL:        %.2f\n\n", 
+    printf("RAW SCORE:          %f\n\n", raw_score)
      ti_load + ti_check + ti_size + ti_unload); 
-    printf("RAW SCORE:          %f\n\n", raw_score);
 
     // that's all folks
     return 0;
